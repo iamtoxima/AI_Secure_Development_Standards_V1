@@ -1,6 +1,7 @@
 BOOTSTRAP.md
 DESIGN_NOTES.md
 EXTERNAL_SOURCE_INDEX.md
+LICENSE
 README.md
 REPOSITORY_TREE.txt
 SKILL_CATALOG.md
@@ -10,6 +11,9 @@ adapters/
   codex/
     AGENTS.template.md
     README.md
+human-prompts/
+  EXISTING_PROJECT_FIRST_PROMPT.md
+  NEW_PROJECT_FIRST_PROMPT.md
 compliance/
   POLICY_REGISTRY.md
   app-stores/
