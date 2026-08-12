@@ -1,0 +1,119 @@
+BOOTSTRAP.md
+DESIGN_NOTES.md
+EXTERNAL_SOURCE_INDEX.md
+README.md
+REPOSITORY_TREE.txt
+SKILL_CATALOG.md
+STARTER_PROMPT.md
+VERSION
+adapters/
+  codex/
+    AGENTS.template.md
+    README.md
+compliance/
+  POLICY_REGISTRY.md
+  app-stores/
+    apple-app-store/
+      POLICY.md
+    google-play/
+      POLICY.md
+  jurisdictions/
+    nigeria/
+      CONSUMER_PROTECTION.md
+      DIGITAL_LENDING.md
+      PAYMENTS_FINTECH.md
+      PRIVACY.md
+      README.md
+core/
+  COMPLIANCE_APPLICABILITY.md
+  CORE_ENGINEERING.md
+  DECISION_MANAGEMENT.md
+  DISCOVERED_BUG_POLICY.md
+  DOCUMENTATION_LIFECYCLE.md
+  EXTERNAL_POLICY_VERIFICATION.md
+  SKILL_ACTIVATION_POLICY.md
+  STANDARDS_LEVELS.md
+  VERSION_CONTROL.md
+providers/
+  payments/
+    flutterwave/
+      POLICY.md
+    monnify/
+      POLICY.md
+    paystack/
+      POLICY.md
+security-baselines/
+  NIST_SSDF.md
+  OWASP_API_SECURITY.md
+  OWASP_ASVS.md
+  OWASP_MASVS.md
+  PCI_DSS.md
+skills/
+  ai-security/
+    SKILL.md
+  api-security/
+    SKILL.md
+  architecture/
+    SKILL.md
+  chat-security/
+    SKILL.md
+  database/
+    SKILL.md
+  dependencies/
+    SKILL.md
+  environment-deployment/
+    SKILL.md
+  feature-lifecycle/
+    SKILL.md
+  file-security/
+    SKILL.md
+  mobile-security/
+    SKILL.md
+  notifications/
+    SKILL.md
+  observability-audit/
+    SKILL.md
+  payments-webhooks/
+    SKILL.md
+  performance/
+    SKILL.md
+  policy-compliance/
+    SKILL.md
+  privacy-data-governance/
+    SKILL.md
+  release-verification/
+    SKILL.md
+  resilience/
+    SKILL.md
+  security/
+    SKILL.md
+  web-security/
+    SKILL.md
+templates/
+  API_CONTRACT.md
+  APP_FLOW.md
+  ARCHITECTURE_DECISIONS.md
+  CHANGE_IMPACT_MAP.md
+  DATA_MODEL.md
+  DOCUMENTATION_INDEX.md
+  FAILURE_MODES.md
+  IMPLEMENTATION_PLAN.md
+  LAUNCH_READINESS.md
+  LOGGING_AND_AUDIT.md
+  PRD.md
+  PRODUCT_DECISION_LOG.md
+  PROJECT_CAPABILITIES.md
+  PROJECT_PROFILE.md
+  SECRETS_AND_ENVIRONMENT.md
+  SECURITY_REQUIREMENTS.md
+  STANDARDS_MANIFEST.md
+  TASK_ROUTER.md
+  TEST_PLAN.md
+  TRD.md
+workflows/
+  ADD_FEATURE.md
+  DECISION_CHANGE.md
+  EXISTING_PROJECT.md
+  NEW_PROJECT.md
+  RELEASE_PREPARATION.md
+  STANDARDS_UPDATE.md
