@@ -203,6 +203,10 @@ See `workflows/ADD_FEATURE.md` and `workflows/DECISION_CHANGE.md`.
 
 These standards improve engineering discipline. They do not guarantee that software is secure, bug-free, compliant, or production-ready. High-risk systems still require real testing, environment verification, monitoring, and appropriate human/security/compliance review.
 
+## License
+
+This project is open source under the MIT License. See `LICENSE`.
+
 ## Bugs Found While Building
 
 The standards do not require an AI to ignore bugs it discovers during implementation or testing.
