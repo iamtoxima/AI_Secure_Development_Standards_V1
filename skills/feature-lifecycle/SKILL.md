@@ -15,5 +15,6 @@ description: Feature flags, staged rollout, deferred or incomplete capabilities,
 - Protect feature-flag administration with trusted authorization.
 - Audit high-impact flag changes when appropriate.
 - Define rollback/disable behavior before launching risky capabilities.
+- For small feature deferrals or presentation-only capability changes, follow the narrow synchronization rule in `core/DOCUMENTATION_LIFECYCLE.md`; do not treat hidden presentation as evidence that implementation, architecture, API, data, security, or operations changed.
 - When a deferred feature becomes active, run the Add Feature workflow and activate the relevant Skills.
 - When a feature is removed, update capabilities, docs, tests, routes, data lifecycle, and active Skills rather than leaving hidden stale functionality.

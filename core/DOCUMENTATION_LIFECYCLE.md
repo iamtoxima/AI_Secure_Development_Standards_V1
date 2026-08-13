@@ -40,6 +40,18 @@ When implementation or product decisions affect any of the following, update the
 
 Do not knowingly leave documentation describing behavior that no longer exists.
 
+## Small Deferrals and Presentation-Only Changes
+
+When a small feature is deferred or only its presentation, visibility, or availability changes:
+
+- update only documentation whose canonical truth actually changed;
+- usually update `PROJECT_CAPABILITIES.md` and `PRODUCT_DECISION_LOG.md`;
+- update the PRD or other product specification only when user-visible product requirements changed materially;
+- do not update implementation or function registries when the underlying logic remains unchanged;
+- do not update architecture, API, data-model, security, or operational documentation merely because a feature is hidden or deferred, unless those systems also changed.
+
+Do not infer an implementation or system-contract change from a presentation-only capability change. This narrow synchronization rule keeps canonical documentation accurate without loading or rewriting unaffected context.
+
 ## Decision Changes
 
 Do not rewrite history as if the old decision never existed.

@@ -29,6 +29,7 @@ Use this router after bootstrap. Do not treat it as permission to ignore direct 
 | Nigeria privacy/data change | SECURITY_REQUIREMENTS, privacy/data docs | privacy-data-governance, policy-compliance | NDPC current requirements |
 | Nigeria fintech/payment activity | PRD, TRD, payment flow | policy-compliance, payments-webhooks, security | CBN applicability + qualified review when uncertain |
 | New feature/capability | PROJECT_CAPABILITIES, PRODUCT_DECISION_LOG, CHANGE_IMPACT_MAP | run `workflows/ADD_FEATURE.md` first | activate relevant dormant Skills |
+| Small feature deferral or presentation-only capability change | PROJECT_CAPABILITIES, PRODUCT_DECISION_LOG | feature-lifecycle; run `workflows/DECISION_CHANGE.md` if a prior decision changed | load or update other docs only when their canonical truth changed |
 | Changed product decision | PRODUCT_DECISION_LOG, PROJECT_CAPABILITIES, CHANGE_IMPACT_MAP | run `workflows/DECISION_CHANGE.md` first | update affected docs/Skills/tests |
 | Bug found during testing | current affected docs only | current task Skills + discovered bug policy | fix related low-risk issue, retest |
 | Release preparation | LAUNCH_READINESS, FAILURE_MODES, SECURITY_REQUIREMENTS, relevant product docs | release-verification + applicable Skills/policies | evidence-based gates |
